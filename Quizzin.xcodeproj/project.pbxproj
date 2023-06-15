@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		EC05743A2A39B2F300B1FA60 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0574392A39B2F300B1FA60 /* CustomButton.swift */; };
 		EC22E6062A3AED4D0035E34F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC22E6052A3AED4D0035E34F /* HomeVC.swift */; };
-		EC22E6082A3AF0E40035E34F /* kbc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC22E6072A3AF0E30035E34F /* kbc.mp3 */; };
 		EC2E079F2A39D0AE00E728CC /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E079E2A39D0AE00E728CC /* BorderView.swift */; };
 		EC2E07A12A39D20900E728CC /* CompleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E07A02A39D20900E728CC /* CompleteVC.swift */; };
 		EC2E07A32A39F17900E728CC /* wrongAnswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC2E07A22A39F17900E728CC /* wrongAnswer.mp3 */; };
@@ -32,7 +31,6 @@
 /* Begin PBXFileReference section */
 		EC0574392A39B2F300B1FA60 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		EC22E6052A3AED4D0035E34F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
-		EC22E6072A3AF0E30035E34F /* kbc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kbc.mp3; sourceTree = "<group>"; };
 		EC2E079E2A39D0AE00E728CC /* BorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
 		EC2E07A02A39D20900E728CC /* CompleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteVC.swift; sourceTree = "<group>"; };
 		EC2E07A22A39F17900E728CC /* wrongAnswer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrongAnswer.mp3; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				EC2E07A22A39F17900E728CC /* wrongAnswer.mp3 */,
-				EC22E6072A3AF0E30035E34F /* kbc.mp3 */,
 				ECAAEF4A2A3B01790078436F /* cheer.mp3 */,
 				EC2E07A42A39F20100E728CC /* warningSound.mp3 */,
 			);
@@ -226,7 +223,6 @@
 				EC8F16C62A38726000F6845D /* LaunchScreen.storyboard in Resources */,
 				EC8F16C32A38726000F6845D /* Assets.xcassets in Resources */,
 				EC8F16C12A38725A00F6845D /* Main.storyboard in Resources */,
-				EC22E6082A3AF0E40035E34F /* kbc.mp3 in Resources */,
 				ECAAEF422A3AF5AB0078436F /* Podfile in Resources */,
 				ECAAEF4B2A3B01790078436F /* cheer.mp3 in Resources */,
 				EC2E07A52A39F20100E728CC /* warningSound.mp3 in Resources */,
