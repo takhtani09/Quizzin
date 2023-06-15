@@ -47,7 +47,6 @@ class CompleteVC: UIViewController {
         else {
             greeting = "Excellent!!"
         }
-
         lblScore.text = "\(greeting) \n Your Score is \(score)"
     }
    
