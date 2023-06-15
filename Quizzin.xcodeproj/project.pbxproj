@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC05743A2A39B2F300B1FA60 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0574392A39B2F300B1FA60 /* CustomButton.swift */; };
+		EC22E6062A3AED4D0035E34F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC22E6052A3AED4D0035E34F /* HomeVC.swift */; };
+		EC22E6082A3AF0E40035E34F /* kbc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC22E6072A3AF0E30035E34F /* kbc.mp3 */; };
+		EC2E079F2A39D0AE00E728CC /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E079E2A39D0AE00E728CC /* BorderView.swift */; };
+		EC2E07A12A39D20900E728CC /* CompleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E07A02A39D20900E728CC /* CompleteVC.swift */; };
+		EC2E07A32A39F17900E728CC /* wrongAnswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC2E07A22A39F17900E728CC /* wrongAnswer.mp3 */; };
+		EC2E07A52A39F20100E728CC /* warningSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC2E07A42A39F20100E728CC /* warningSound.mp3 */; };
 		EC8F16BA2A38725A00F6845D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F16B92A38725A00F6845D /* AppDelegate.swift */; };
 		EC8F16BC2A38725A00F6845D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F16BB2A38725A00F6845D /* SceneDelegate.swift */; };
 		EC8F16BE2A38725A00F6845D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F16BD2A38725A00F6845D /* ViewController.swift */; };
 		EC8F16C12A38725A00F6845D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8F16BF2A38725A00F6845D /* Main.storyboard */; };
 		EC8F16C32A38726000F6845D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8F16C22A38726000F6845D /* Assets.xcassets */; };
 		EC8F16C62A38726000F6845D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8F16C42A38726000F6845D /* LaunchScreen.storyboard */; };
+		ECAAEF422A3AF5AB0078436F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ECAAEF412A3AF5AB0078436F /* Podfile */; };
+		ECAAEF442A3AFEDD0078436F /* ConfettiLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAEF432A3AFEDD0078436F /* ConfettiLayer.swift */; };
+		ECAAEF462A3AFF040078436F /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAEF452A3AFF040078436F /* ConfettiView.swift */; };
+		ECAAEF492A3AFF270078436F /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAEF482A3AFF270078436F /* ShapeType.swift */; };
+		ECAAEF4B2A3B01790078436F /* cheer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ECAAEF4A2A3B01790078436F /* cheer.mp3 */; };
+		ECB507542A398C1800AA4173 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB507532A398C1800AA4173 /* Model.swift */; };
+		ECB507562A398C4900AA4173 /* apiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB507552A398C4900AA4173 /* apiCall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC0574392A39B2F300B1FA60 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		EC22E6052A3AED4D0035E34F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		EC22E6072A3AF0E30035E34F /* kbc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kbc.mp3; sourceTree = "<group>"; };
+		EC2E079E2A39D0AE00E728CC /* BorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
+		EC2E07A02A39D20900E728CC /* CompleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteVC.swift; sourceTree = "<group>"; };
+		EC2E07A22A39F17900E728CC /* wrongAnswer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrongAnswer.mp3; sourceTree = "<group>"; };
+		EC2E07A42A39F20100E728CC /* warningSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = warningSound.mp3; sourceTree = "<group>"; };
 		EC8F16B62A38725A00F6845D /* Quizzin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizzin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8F16B92A38725A00F6845D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC8F16BB2A38725A00F6845D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,13 @@
 		EC8F16C22A38726000F6845D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC8F16C52A38726000F6845D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC8F16C72A38726000F6845D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAAEF412A3AF5AB0078436F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		ECAAEF432A3AFEDD0078436F /* ConfettiLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiLayer.swift; sourceTree = "<group>"; };
+		ECAAEF452A3AFF040078436F /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		ECAAEF482A3AFF270078436F /* ShapeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeType.swift; sourceTree = "<group>"; };
+		ECAAEF4A2A3B01790078436F /* cheer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cheer.mp3; sourceTree = "<group>"; };
+		ECB507532A398C1800AA4173 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		ECB507552A398C4900AA4173 /* apiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apiCall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,9 +65,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC22E6092A3AF28D0035E34F /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F16B92A38725A00F6845D /* AppDelegate.swift */,
+				EC8F16BB2A38725A00F6845D /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		EC22E60A2A3AF2AD0035E34F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC2E07A02A39D20900E728CC /* CompleteVC.swift */,
+				EC22E6052A3AED4D0035E34F /* HomeVC.swift */,
+				EC8F16BD2A38725A00F6845D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		EC8F16AD2A38725A00F6845D = {
 			isa = PBXGroup;
 			children = (
+				ECAAEF412A3AF5AB0078436F /* Podfile */,
 				EC8F16B82A38725A00F6845D /* Quizzin */,
 				EC8F16B72A38725A00F6845D /* Products */,
 			);
@@ -56,15 +104,65 @@
 		EC8F16B82A38725A00F6845D /* Quizzin */ = {
 			isa = PBXGroup;
 			children = (
-				EC8F16B92A38725A00F6845D /* AppDelegate.swift */,
-				EC8F16BB2A38725A00F6845D /* SceneDelegate.swift */,
-				EC8F16BD2A38725A00F6845D /* ViewController.swift */,
-				EC8F16BF2A38725A00F6845D /* Main.storyboard */,
+				ECAAEF4C2A3B03A80078436F /* Animation */,
+				ECAAEF402A3AF35F0078436F /* Add Ons */,
+				ECAAEF3F2A3AF3490078436F /* Model */,
+				ECAAEF3E2A3AF3360078436F /* Sound */,
+				ECAAEF3D2A3AF3270078436F /* StoryBoard */,
+				EC22E60A2A3AF2AD0035E34F /* Controllers */,
+				EC22E6092A3AF28D0035E34F /* Delegates */,
 				EC8F16C22A38726000F6845D /* Assets.xcassets */,
-				EC8F16C42A38726000F6845D /* LaunchScreen.storyboard */,
 				EC8F16C72A38726000F6845D /* Info.plist */,
 			);
 			path = Quizzin;
+			sourceTree = "<group>";
+		};
+		ECAAEF3D2A3AF3270078436F /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				EC8F16BF2A38725A00F6845D /* Main.storyboard */,
+				EC8F16C42A38726000F6845D /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		ECAAEF3E2A3AF3360078436F /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				EC2E07A22A39F17900E728CC /* wrongAnswer.mp3 */,
+				EC22E6072A3AF0E30035E34F /* kbc.mp3 */,
+				ECAAEF4A2A3B01790078436F /* cheer.mp3 */,
+				EC2E07A42A39F20100E728CC /* warningSound.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		ECAAEF3F2A3AF3490078436F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECB507552A398C4900AA4173 /* apiCall.swift */,
+				ECB507532A398C1800AA4173 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ECAAEF402A3AF35F0078436F /* Add Ons */ = {
+			isa = PBXGroup;
+			children = (
+				EC0574392A39B2F300B1FA60 /* CustomButton.swift */,
+				EC2E079E2A39D0AE00E728CC /* BorderView.swift */,
+			);
+			path = "Add Ons";
+			sourceTree = "<group>";
+		};
+		ECAAEF4C2A3B03A80078436F /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				ECAAEF432A3AFEDD0078436F /* ConfettiLayer.swift */,
+				ECAAEF452A3AFF040078436F /* ConfettiView.swift */,
+				ECAAEF482A3AFF270078436F /* ShapeType.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +222,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2E07A32A39F17900E728CC /* wrongAnswer.mp3 in Resources */,
 				EC8F16C62A38726000F6845D /* LaunchScreen.storyboard in Resources */,
 				EC8F16C32A38726000F6845D /* Assets.xcassets in Resources */,
 				EC8F16C12A38725A00F6845D /* Main.storyboard in Resources */,
+				EC22E6082A3AF0E40035E34F /* kbc.mp3 in Resources */,
+				ECAAEF422A3AF5AB0078436F /* Podfile in Resources */,
+				ECAAEF4B2A3B01790078436F /* cheer.mp3 in Resources */,
+				EC2E07A52A39F20100E728CC /* warningSound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +240,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECAAEF462A3AFF040078436F /* ConfettiView.swift in Sources */,
+				ECAAEF492A3AFF270078436F /* ShapeType.swift in Sources */,
+				ECB507562A398C4900AA4173 /* apiCall.swift in Sources */,
+				EC22E6062A3AED4D0035E34F /* HomeVC.swift in Sources */,
+				ECB507542A398C1800AA4173 /* Model.swift in Sources */,
 				EC8F16BE2A38725A00F6845D /* ViewController.swift in Sources */,
+				EC2E079F2A39D0AE00E728CC /* BorderView.swift in Sources */,
+				ECAAEF442A3AFEDD0078436F /* ConfettiLayer.swift in Sources */,
+				EC2E07A12A39D20900E728CC /* CompleteVC.swift in Sources */,
+				EC05743A2A39B2F300B1FA60 /* CustomButton.swift in Sources */,
 				EC8F16BA2A38725A00F6845D /* AppDelegate.swift in Sources */,
 				EC8F16BC2A38725A00F6845D /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M36758779V;
 				INFOPLIST_FILE = Quizzin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +418,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M36758779V;
 				INFOPLIST_FILE = Quizzin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
