@@ -20,7 +20,6 @@
 		EC8F16C12A38725A00F6845D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8F16BF2A38725A00F6845D /* Main.storyboard */; };
 		EC8F16C32A38726000F6845D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8F16C22A38726000F6845D /* Assets.xcassets */; };
 		EC8F16C62A38726000F6845D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8F16C42A38726000F6845D /* LaunchScreen.storyboard */; };
-		ECAAEF422A3AF5AB0078436F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = ECAAEF412A3AF5AB0078436F /* Podfile */; };
 		ECAAEF442A3AFEDD0078436F /* ConfettiLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAEF432A3AFEDD0078436F /* ConfettiLayer.swift */; };
 		ECAAEF462A3AFF040078436F /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAEF452A3AFF040078436F /* ConfettiView.swift */; };
 		ECAAEF492A3AFF270078436F /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAEF482A3AFF270078436F /* ShapeType.swift */; };
@@ -44,7 +43,6 @@
 		EC8F16C22A38726000F6845D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC8F16C52A38726000F6845D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC8F16C72A38726000F6845D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECAAEF412A3AF5AB0078436F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		ECAAEF432A3AFEDD0078436F /* ConfettiLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiLayer.swift; sourceTree = "<group>"; };
 		ECAAEF452A3AFF040078436F /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
 		ECAAEF482A3AFF270078436F /* ShapeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeType.swift; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 		EC8F16AD2A38725A00F6845D = {
 			isa = PBXGroup;
 			children = (
-				ECAAEF412A3AF5AB0078436F /* Podfile */,
 				EC8F16B82A38725A00F6845D /* Quizzin */,
 				EC8F16B72A38725A00F6845D /* Products */,
 			);
@@ -231,7 +228,6 @@
 				EC8F16C62A38726000F6845D /* LaunchScreen.storyboard in Resources */,
 				EC8F16C32A38726000F6845D /* Assets.xcassets in Resources */,
 				EC8F16C12A38725A00F6845D /* Main.storyboard in Resources */,
-				ECAAEF422A3AF5AB0078436F /* Podfile in Resources */,
 				ECAAEF4B2A3B01790078436F /* cheer.mp3 in Resources */,
 				EC2E07A52A39F20100E728CC /* warningSound.mp3 in Resources */,
 			);
