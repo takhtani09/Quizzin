@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		EC2E07A12A39D20900E728CC /* CompleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E07A02A39D20900E728CC /* CompleteVC.swift */; };
 		EC2E07A32A39F17900E728CC /* wrongAnswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC2E07A22A39F17900E728CC /* wrongAnswer.mp3 */; };
 		EC2E07A52A39F20100E728CC /* warningSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC2E07A42A39F20100E728CC /* warningSound.mp3 */; };
+		EC5EF4D22A3C25BF00C53AA8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EC5EF4D12A3C25BF00C53AA8 /* Alamofire */; };
 		EC8F16BA2A38725A00F6845D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F16B92A38725A00F6845D /* AppDelegate.swift */; };
 		EC8F16BC2A38725A00F6845D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F16BB2A38725A00F6845D /* SceneDelegate.swift */; };
 		EC8F16BE2A38725A00F6845D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F16BD2A38725A00F6845D /* ViewController.swift */; };
@@ -57,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5EF4D22A3C25BF00C53AA8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +180,9 @@
 			dependencies = (
 			);
 			name = Quizzin;
+			packageProductDependencies = (
+				EC5EF4D12A3C25BF00C53AA8 /* Alamofire */,
+			);
 			productName = Quizzin;
 			productReference = EC8F16B62A38725A00F6845D /* Quizzin.app */;
 			productType = "com.apple.product-type.application";
@@ -205,6 +210,9 @@
 				Base,
 			);
 			mainGroup = EC8F16AD2A38725A00F6845D;
+			packageReferences = (
+				EC5EF4D02A3C25BF00C53AA8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = EC8F16B72A38725A00F6845D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -449,6 +457,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EC5EF4D02A3C25BF00C53AA8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EC5EF4D12A3C25BF00C53AA8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC5EF4D02A3C25BF00C53AA8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EC8F16AE2A38725A00F6845D /* Project object */;
 }

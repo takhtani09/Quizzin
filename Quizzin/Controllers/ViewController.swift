@@ -8,6 +8,7 @@
 
 import UIKit
 import AVFoundation
+import Alamofire
 
 class ViewController: UIViewController {
     
@@ -57,18 +58,31 @@ class ViewController: UIViewController {
         // Hide the navigation bar
         navigationController?.isNavigationBarHidden = true
         
-        // Make an API call to fetch the question bank
-        apiCall.api { [weak self] questionBank in
-            self?.questionBank = questionBank
-            self?.initializeQuestionIndexes()
+        // Check internet connectivity
+        if NetworkReachabilityManager()?.isReachable ?? false {
+            // Make an API call to fetch the question bank
+            apiCall.api { [weak self] questionBank in
+                self?.questionBank = questionBank
+                self?.initializeQuestionIndexes()
+            }
+        } else {
+            showInternetUnavailablePopup()
         }
     }
-    
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(true)
         
         // Invalidate the timer when the view is about to disappear
         timer?.invalidate()
+    }
+    
+    func showInternetUnavailablePopup() {
+        let alertController = UIAlertController(title: "Internet Unavailable", message: "Please check your internet connection and try again.", preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .default, handler: {_ in
+            self.dismiss(animated: true, completion: nil)
+        })
+        alertController.addAction(okAction)
+        present(alertController, animated: true, completion: nil)
     }
     
     // Resize the option buttons' labels to fit the content
