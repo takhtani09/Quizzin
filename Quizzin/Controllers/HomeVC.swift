@@ -9,6 +9,8 @@ import UIKit
 
 class HomeVC: UIViewController {
     
+    @IBOutlet weak var tblView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

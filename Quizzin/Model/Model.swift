@@ -12,3 +12,8 @@ struct QuestionBank {
     let options: [String]
     let answer: String
 }
+
+struct LeaderBoard {
+    let username: String
+    let score: Int
+}
