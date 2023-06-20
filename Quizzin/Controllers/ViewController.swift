@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     
     // Player's score
     var score = 0
+    var username = String()
     
     // Countdown timer variables
     var counter = 31
@@ -186,6 +187,7 @@ class ViewController: UIViewController {
             
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "CompleteVC") as! CompleteVC
             vc.score = score
+            vc.usernmae = username
             
             let navigationController = UINavigationController(rootViewController: vc)
             navigationController.modalPresentationStyle = .fullScreen

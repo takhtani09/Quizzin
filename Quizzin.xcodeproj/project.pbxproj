@@ -13,6 +13,11 @@
 		EC2E07A12A39D20900E728CC /* CompleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2E07A02A39D20900E728CC /* CompleteVC.swift */; };
 		EC2E07A32A39F17900E728CC /* wrongAnswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC2E07A22A39F17900E728CC /* wrongAnswer.mp3 */; };
 		EC2E07A52A39F20100E728CC /* warningSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EC2E07A42A39F20100E728CC /* warningSound.mp3 */; };
+		EC3D99F82A4163D5004FBD1A /* NameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3D99F72A4163D5004FBD1A /* NameVC.swift */; };
+		EC3D9A0A2A416F40004FBD1A /* UserData+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3D9A082A416F40004FBD1A /* UserData+CoreDataClass.swift */; };
+		EC3D9A0B2A416F40004FBD1A /* UserData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3D9A092A416F40004FBD1A /* UserData+CoreDataProperties.swift */; };
+		EC3D9A0C2A41733D004FBD1A /* Quizzin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC3D99F92A416485004FBD1A /* Quizzin.xcdatamodeld */; };
+		EC3D9A0E2A417598004FBD1A /* UserDataTBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3D9A0D2A417598004FBD1A /* UserDataTBVC.swift */; };
 		EC5EF4D22A3C25BF00C53AA8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EC5EF4D12A3C25BF00C53AA8 /* Alamofire */; };
 		EC8F16BA2A38725A00F6845D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F16B92A38725A00F6845D /* AppDelegate.swift */; };
 		EC8F16BC2A38725A00F6845D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8F16BB2A38725A00F6845D /* SceneDelegate.swift */; };
@@ -35,6 +40,11 @@
 		EC2E07A02A39D20900E728CC /* CompleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteVC.swift; sourceTree = "<group>"; };
 		EC2E07A22A39F17900E728CC /* wrongAnswer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wrongAnswer.mp3; sourceTree = "<group>"; };
 		EC2E07A42A39F20100E728CC /* warningSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = warningSound.mp3; sourceTree = "<group>"; };
+		EC3D99F72A4163D5004FBD1A /* NameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameVC.swift; sourceTree = "<group>"; };
+		EC3D99FA2A416485004FBD1A /* Quizzin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quizzin.xcdatamodel; sourceTree = "<group>"; };
+		EC3D9A082A416F40004FBD1A /* UserData+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EC3D9A092A416F40004FBD1A /* UserData+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EC3D9A0D2A417598004FBD1A /* UserDataTBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataTBVC.swift; sourceTree = "<group>"; };
 		EC8F16B62A38725A00F6845D /* Quizzin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizzin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8F16B92A38725A00F6845D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC8F16BB2A38725A00F6845D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +88,7 @@
 				EC2E07A02A39D20900E728CC /* CompleteVC.swift */,
 				EC22E6052A3AED4D0035E34F /* HomeVC.swift */,
 				EC8F16BD2A38725A00F6845D /* ViewController.swift */,
+				EC3D99F72A4163D5004FBD1A /* NameVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -101,6 +112,8 @@
 		EC8F16B82A38725A00F6845D /* Quizzin */ = {
 			isa = PBXGroup;
 			children = (
+				EC3D9A082A416F40004FBD1A /* UserData+CoreDataClass.swift */,
+				EC3D9A092A416F40004FBD1A /* UserData+CoreDataProperties.swift */,
 				ECAAEF4C2A3B03A80078436F /* Animation */,
 				ECAAEF402A3AF35F0078436F /* Add Ons */,
 				ECAAEF3F2A3AF3490078436F /* Model */,
@@ -110,6 +123,8 @@
 				EC22E6092A3AF28D0035E34F /* Delegates */,
 				EC8F16C22A38726000F6845D /* Assets.xcassets */,
 				EC8F16C72A38726000F6845D /* Info.plist */,
+				EC3D99F92A416485004FBD1A /* Quizzin.xcdatamodeld */,
+				EC3D9A0D2A417598004FBD1A /* UserDataTBVC.swift */,
 			);
 			path = Quizzin;
 			sourceTree = "<group>";
@@ -246,12 +261,17 @@
 				EC22E6062A3AED4D0035E34F /* HomeVC.swift in Sources */,
 				ECB507542A398C1800AA4173 /* Model.swift in Sources */,
 				EC8F16BE2A38725A00F6845D /* ViewController.swift in Sources */,
+				EC3D9A0C2A41733D004FBD1A /* Quizzin.xcdatamodeld in Sources */,
+				EC3D9A0B2A416F40004FBD1A /* UserData+CoreDataProperties.swift in Sources */,
+				EC3D9A0E2A417598004FBD1A /* UserDataTBVC.swift in Sources */,
 				EC2E079F2A39D0AE00E728CC /* BorderView.swift in Sources */,
 				ECAAEF442A3AFEDD0078436F /* ConfettiLayer.swift in Sources */,
 				EC2E07A12A39D20900E728CC /* CompleteVC.swift in Sources */,
 				EC05743A2A39B2F300B1FA60 /* CustomButton.swift in Sources */,
+				EC3D9A0A2A416F40004FBD1A /* UserData+CoreDataClass.swift in Sources */,
 				EC8F16BA2A38725A00F6845D /* AppDelegate.swift in Sources */,
 				EC8F16BC2A38725A00F6845D /* SceneDelegate.swift in Sources */,
+				EC3D99F82A4163D5004FBD1A /* NameVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +492,19 @@
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		EC3D99F92A416485004FBD1A /* Quizzin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC3D99FA2A416485004FBD1A /* Quizzin.xcdatamodel */,
+			);
+			currentVersion = EC3D99FA2A416485004FBD1A /* Quizzin.xcdatamodel */;
+			path = Quizzin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EC8F16AE2A38725A00F6845D /* Project object */;
 }
