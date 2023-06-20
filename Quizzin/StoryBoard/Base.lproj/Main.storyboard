@@ -24,7 +24,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="724"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Quizzin" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01c-hH-uN9">
-                                                <rect key="frame" x="50" y="50" width="314" height="144"/>
+                                                <rect key="frame" x="100" y="50" width="190.5" height="144"/>
                                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="45"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -118,9 +118,9 @@
                                             <constraint firstItem="HWA-uA-4lt" firstAttribute="leading" secondItem="ZYr-5o-DSD" secondAttribute="leading" constant="50" id="WzC-7y-Hob"/>
                                             <constraint firstAttribute="trailing" secondItem="P8h-YU-hMV" secondAttribute="trailing" constant="50" id="eAD-Z0-mLa"/>
                                             <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="HWA-uA-4lt" secondAttribute="trailing" constant="50" id="eTO-RO-eDL"/>
-                                            <constraint firstItem="01c-hH-uN9" firstAttribute="leading" secondItem="ZYr-5o-DSD" secondAttribute="leading" constant="50" id="fbh-Gz-1Rp"/>
+                                            <constraint firstItem="01c-hH-uN9" firstAttribute="leading" secondItem="ZYr-5o-DSD" secondAttribute="leading" constant="100" id="fbh-Gz-1Rp"/>
                                             <constraint firstItem="HWA-uA-4lt" firstAttribute="top" secondItem="P8h-YU-hMV" secondAttribute="bottom" constant="50" id="lFD-15-7Kw"/>
-                                            <constraint firstAttribute="trailing" secondItem="01c-hH-uN9" secondAttribute="trailing" constant="50" id="ojM-0R-CoN"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="01c-hH-uN9" secondAttribute="trailing" constant="20" symbolic="YES" id="ojM-0R-CoN"/>
                                             <constraint firstItem="P8h-YU-hMV" firstAttribute="top" secondItem="01c-hH-uN9" secondAttribute="bottom" constant="50" id="yKd-J2-XV7"/>
                                         </constraints>
                                     </view>
@@ -624,7 +624,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="2284" y="80"/>
+            <point key="canvasLocation" x="2165" y="70"/>
         </scene>
     </scenes>
     <designables>

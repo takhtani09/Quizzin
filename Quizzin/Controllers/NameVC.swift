@@ -10,7 +10,6 @@ import CoreData
 
 class NameVC: UIViewController {
     
-    
     @IBOutlet weak var txtName: UITextField!
     
     override func viewDidLoad() {
@@ -21,14 +20,25 @@ class NameVC: UIViewController {
     }
 
     @IBAction func btnEnter(_ sender: CustomButton) {
+        guard let username = txtName.text, !username.isEmpty else {
+            // Display an alert or show an error message indicating that the text field is empty
+            // Example:
+            showAlert(with: "Empty Field", message: "Please enter your name.")
+            return
+        }
         
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
-        vc.username = txtName.text!
+        let vc = storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        vc.username = username
         let navigationController = UINavigationController(rootViewController: vc)
         navigationController.modalPresentationStyle = .fullScreen
         navigationController.modalPresentationStyle = .overCurrentContext
-        self.present(navigationController, animated: false, completion: nil)
+        present(navigationController, animated: false, completion: nil)
     }
     
+    private func showAlert(with title: String, message: String) {
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
+    }
     
 }

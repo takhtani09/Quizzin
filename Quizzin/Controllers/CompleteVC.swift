@@ -12,7 +12,7 @@ import CoreData
 class CompleteVC: UIViewController {
     
     var score = Int() // The score achieved by the user in the quiz
-    var usernmae = String()
+    var usernmae = String() // The username which user entered
     var greeting = String() // The greeting message based on the score
     let party = ConfettiView() // A view that displays confetti animation
     var playerCheerSound: AVAudioPlayer! // Audio player for the cheer sound effect
@@ -27,16 +27,13 @@ class CompleteVC: UIViewController {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         managedObjectContext = appDelegate.persistentContainer.viewContext
         
-        
-
         navigationController?.isNavigationBarHidden = true // Hide the navigation bar
         playCheerSound() // Play the cheer sound effect
         party.startAnimating() // Start the confetti animation
         viewScore() // Update the score label with the score and greeting
-        
-        
     }
     
+    // Save username and its score to coredata
     func saveUserData() {
         
         var highScore = score
