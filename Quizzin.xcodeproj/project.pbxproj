@@ -93,6 +93,24 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		EC3D9A0F2A41AF55004FBD1A /* CoreDataFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EC3D99F92A416485004FBD1A /* Quizzin.xcdatamodeld */,
+				EC3D9A082A416F40004FBD1A /* UserData+CoreDataClass.swift */,
+				EC3D9A092A416F40004FBD1A /* UserData+CoreDataProperties.swift */,
+			);
+			path = CoreDataFiles;
+			sourceTree = "<group>";
+		};
+		EC3D9A102A41AF72004FBD1A /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC3D9A0D2A417598004FBD1A /* UserDataTBVC.swift */,
+			);
+			path = "Table Cell";
+			sourceTree = "<group>";
+		};
 		EC8F16AD2A38725A00F6845D = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +130,8 @@
 		EC8F16B82A38725A00F6845D /* Quizzin */ = {
 			isa = PBXGroup;
 			children = (
-				EC3D9A082A416F40004FBD1A /* UserData+CoreDataClass.swift */,
-				EC3D9A092A416F40004FBD1A /* UserData+CoreDataProperties.swift */,
+				EC3D9A102A41AF72004FBD1A /* Table Cell */,
+				EC3D9A0F2A41AF55004FBD1A /* CoreDataFiles */,
 				ECAAEF4C2A3B03A80078436F /* Animation */,
 				ECAAEF402A3AF35F0078436F /* Add Ons */,
 				ECAAEF3F2A3AF3490078436F /* Model */,
@@ -123,8 +141,6 @@
 				EC22E6092A3AF28D0035E34F /* Delegates */,
 				EC8F16C22A38726000F6845D /* Assets.xcassets */,
 				EC8F16C72A38726000F6845D /* Info.plist */,
-				EC3D99F92A416485004FBD1A /* Quizzin.xcdatamodeld */,
-				EC3D9A0D2A417598004FBD1A /* UserDataTBVC.swift */,
 			);
 			path = Quizzin;
 			sourceTree = "<group>";
