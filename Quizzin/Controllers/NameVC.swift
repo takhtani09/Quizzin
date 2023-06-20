@@ -22,7 +22,6 @@ class NameVC: UIViewController {
     @IBAction func btnEnter(_ sender: CustomButton) {
         guard let username = txtName.text, !username.isEmpty else {
             // Display an alert or show an error message indicating that the text field is empty
-            // Example:
             showAlert(with: "Empty Field", message: "Please enter your name.")
             return
         }
