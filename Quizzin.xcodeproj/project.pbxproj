@@ -25,6 +25,8 @@
 		EC8F16C12A38725A00F6845D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8F16BF2A38725A00F6845D /* Main.storyboard */; };
 		EC8F16C32A38726000F6845D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8F16C22A38726000F6845D /* Assets.xcassets */; };
 		EC8F16C62A38726000F6845D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8F16C42A38726000F6845D /* LaunchScreen.storyboard */; };
+		EC9362D42A42B6A5005A6A6D /* Dalion Stream.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC9362D32A42B6A5005A6A6D /* Dalion Stream.ttf */; };
+		EC9362D72A42B944005A6A6D /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EC9362D62A42B944005A6A6D /* IQKeyboardManagerSwift */; };
 		ECAAEF442A3AFEDD0078436F /* ConfettiLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAEF432A3AFEDD0078436F /* ConfettiLayer.swift */; };
 		ECAAEF462A3AFF040078436F /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAEF452A3AFF040078436F /* ConfettiView.swift */; };
 		ECAAEF492A3AFF270078436F /* ShapeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAAEF482A3AFF270078436F /* ShapeType.swift */; };
@@ -53,6 +55,7 @@
 		EC8F16C22A38726000F6845D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC8F16C52A38726000F6845D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC8F16C72A38726000F6845D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC9362D32A42B6A5005A6A6D /* Dalion Stream.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dalion Stream.ttf"; sourceTree = "<group>"; };
 		ECAAEF432A3AFEDD0078436F /* ConfettiLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiLayer.swift; sourceTree = "<group>"; };
 		ECAAEF452A3AFF040078436F /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
 		ECAAEF482A3AFF270078436F /* ShapeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeType.swift; sourceTree = "<group>"; };
@@ -67,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC5EF4D22A3C25BF00C53AA8 /* Alamofire in Frameworks */,
+				EC9362D72A42B944005A6A6D /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +139,7 @@
 				ECAAEF4C2A3B03A80078436F /* Animation */,
 				ECAAEF402A3AF35F0078436F /* Add Ons */,
 				ECAAEF3F2A3AF3490078436F /* Model */,
-				ECAAEF3E2A3AF3360078436F /* Sound */,
+				ECAAEF3E2A3AF3360078436F /* Assets */,
 				ECAAEF3D2A3AF3270078436F /* StoryBoard */,
 				EC22E60A2A3AF2AD0035E34F /* Controllers */,
 				EC22E6092A3AF28D0035E34F /* Delegates */,
@@ -154,14 +158,15 @@
 			path = StoryBoard;
 			sourceTree = "<group>";
 		};
-		ECAAEF3E2A3AF3360078436F /* Sound */ = {
+		ECAAEF3E2A3AF3360078436F /* Assets */ = {
 			isa = PBXGroup;
 			children = (
 				EC2E07A22A39F17900E728CC /* wrongAnswer.mp3 */,
+				EC9362D32A42B6A5005A6A6D /* Dalion Stream.ttf */,
 				ECAAEF4A2A3B01790078436F /* cheer.mp3 */,
 				EC2E07A42A39F20100E728CC /* warningSound.mp3 */,
 			);
-			path = Sound;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		ECAAEF3F2A3AF3490078436F /* Model */ = {
@@ -210,6 +215,7 @@
 			name = Quizzin;
 			packageProductDependencies = (
 				EC5EF4D12A3C25BF00C53AA8 /* Alamofire */,
+				EC9362D62A42B944005A6A6D /* IQKeyboardManagerSwift */,
 			);
 			productName = Quizzin;
 			productReference = EC8F16B62A38725A00F6845D /* Quizzin.app */;
@@ -240,6 +246,7 @@
 			mainGroup = EC8F16AD2A38725A00F6845D;
 			packageReferences = (
 				EC5EF4D02A3C25BF00C53AA8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				EC9362D52A42B944005A6A6D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = EC8F16B72A38725A00F6845D /* Products */;
 			projectDirPath = "";
@@ -257,6 +264,7 @@
 			files = (
 				EC2E07A32A39F17900E728CC /* wrongAnswer.mp3 in Resources */,
 				EC8F16C62A38726000F6845D /* LaunchScreen.storyboard in Resources */,
+				EC9362D42A42B6A5005A6A6D /* Dalion Stream.ttf in Resources */,
 				EC8F16C32A38726000F6845D /* Assets.xcassets in Resources */,
 				EC8F16C12A38725A00F6845D /* Main.storyboard in Resources */,
 				ECAAEF4B2A3B01790078436F /* cheer.mp3 in Resources */,
@@ -499,6 +507,14 @@
 				version = 5.0.0;
 			};
 		};
+		EC9362D52A42B944005A6A6D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.12;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -506,6 +522,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EC5EF4D02A3C25BF00C53AA8 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		EC9362D62A42B944005A6A6D /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EC9362D52A42B944005A6A6D /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 
